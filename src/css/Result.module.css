@@ -1,0 +1,100 @@
+.container{
+    height: 60vh;
+    width: 100%;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    overflow: hidden;
+    text-align: center;
+  
+}
+.history{
+    border-right: 1px dashed rgb(89, 104, 96);
+    height: auto;
+    width: 28%;
+    color: rgb(102, 77, 139);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+@media (max-width:320px) {
+  .history{
+    border: 1px solid transparent;
+    height: auto;
+    width: 25%;
+    color: rgb(102, 77, 139);
+    padding: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .history h4{
+    color: rgb(2, 61, 36);
+   margin-bottom: 4vh;
+   font-size: clamp(.5rem,2vw,1rem);
+}
+.historyList{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: clamp(.5rem,2vw,1rem);
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(49, 7, 69);
+    list-style-type: none;
+
+  
+    
+}
+}
+.history h4{
+    color: rgb(2, 61, 36);
+   margin-bottom: 4vh;
+   font-size: clamp(1rem,4vw,1.5rem);
+}
+.historyList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: clamp(1rem,4vw,1.5rem);
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(49, 7, 69);
+    list-style-type: none;
+
+  
+    
+}
+.weatherData{
+    width: 70%;
+    overflow: scroll;
+    scrollbar-width: none;  
+    font-size: clamp(.7rem,3vw,1.7rem);  
+}
+.city{
+    font-size: clamp(1.4rem,2vw,1.7rem);
+    font-weight: bold;
+    color: rgb(11, 4, 86);
+}
+
+.details{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 5px;
+  
+}
+.card{
+    flex-grow: 1;
+    flex-basis: 200px;
+        
+}
+.message{
+    font-size: 2rem;
+    color: greenyellow;
+}

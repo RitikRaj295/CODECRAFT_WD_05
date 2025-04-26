@@ -1,0 +1,14 @@
+.container{
+  max-width: 70vw;
+  max-height: 70vh;
+  margin: auto;
+  /* margin-top: 10%; */
+}
+
+h1{
+  text-align: center;
+  margin: 10px 0px 8px 0px;
+  font-size: clamp(1.5rem,5vw,3rem);
+  font-weight: bold;
+  color: rgb(248, 111, 0);
+}

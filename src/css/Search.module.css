@@ -1,0 +1,36 @@
+.container{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container input{
+     height: 100%;
+     width: 74%;
+     background-color: rgb(223, 233, 237);    
+     color: black;
+     font-size: clamp(1rem,3vw,1.4rem);
+     padding-left: 10px;
+     border: none;
+     border-radius: 1.4rem;
+     box-shadow: rgb(1, 1, 1) 3px 3px 10px;
+
+    }
+.container button{
+    height: 100%;
+    width: 25%;
+    border: 1px solid black;
+    font-size: clamp(.7rem,2.5vw,1.1rem);
+    font-weight: bold;
+    box-shadow: rgb(1, 1, 1) 3px 3px 10px;
+    border-radius: 1.4rem;
+    cursor: pointer;
+    &:active{
+        background-color: rgb(47, 130, 255);
+        color: white;
+    }
+    &:hover{
+        opacity: .9;
+    }
+
+}
